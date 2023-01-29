@@ -40,14 +40,14 @@ try {
     $mail->SMTPAuth = true;
 
     // Настройки вашей почты
-    $mail->Host = 'smtp.gmail.com'; // SMTP сервера вашей почты
-    $mail->Username = 'reschetiloolga@gmail.com'; // Логин на почте
-    $mail->Password = 'ooqczakokwjcdxvv'; // Пароль на почте
-    $mail->SMTPSecure = 'ssl';
+    $mail->Host = ''; // SMTP сервера вашей почты
+    $mail->Username = ''; // Логин на почте
+    $mail->Password = ''; // Пароль на почте
+    $mail->SMTPSecure = '';
     $mail->Port = 465;
 
-    $mail->setFrom('reschetiloolga@gmail.com', 'Заявка с вашего сайта'); // Адрес самой почты и имя отправителя
-    $mail->setFrom('olgarechetilo@yahoo.com', 'Заявка с вашего сайта'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('', 'Заявка с вашего сайта'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('', 'Заявка с вашего сайта'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
     $mail->addAddress('');
